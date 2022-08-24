@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark-about">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Population Trends</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xxl-6">
+                            <div class="text-center my-5">
+                                <h1 class="fw-bolder mb-3">Population Machine Learning Models</h1>
+                              <br/>
+                               <h3>
+                                 Objective
+                              </h3> 
+                                <p class="lead fw-normal text-muted mb-4">Throughout the course of our project, our team created and trained several Machine Learning models. We aimed to predict a country’s future population issues (i.e over/under crowding) to identify the timelines of these problems and prepare for them.
+</p>
+                               <h3>
+                                  How?
+                              </h3>
+                              <p class="lead fw-normal text-muted mb-4">We utilized Machine Learning models and the relationships between different population factors (median age, urban population, etc.) to train the models and create accurate predictions.
+</p>
+                                <a class="btn btn-primary-about btn-lg"  href="#scroll-target">View Our Models</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+          
+            <!-- Figure out image sizing-->
+            <!-- Gaussian Regression Model-->
+          <div>
+            
+          </div>
+          
+            <section class="py-5 bg-light" id="scroll-target">
+              <div>
+                <img class ="graph-image" width = "500" height = "400" title = "ml1" src = "./assets/ml1-resize.png" style="border:1px solid green;">
+              </div>
+                <div class="container my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="graph"></div>
+
+                      <br/>
+                      
+                        <div>
+                            <h2 class="fw-bolder-space">Gaussian Regression Model</h2>
+                            <p class="lead fw-normal text-muted mb-0">We utilized the Gaussian Regression Model since it works well with smaller datasets. The 95% confidence interval displayed on the graph demonstrates how certain the machine learning is of its predictions. Below, you can train this model using any two factors from a country.</p>
+                          <ul class="lead fw-normal text-muted mb-0">
+    <li>Standard Deviation: 0.5602876245485191
+    </li>
+    <li>MAE: 0.6599639068564018
+    </li>
+    <li>Score: 0.99
+    </li>
+</ul>
+      <section class="py-5" id="gaussian-inputs">
+             <form method="POST">
+               <label for="country">Choose a country:</label>
+               <br><br>
+               <select name="country" id="country", name="Country">
+  <option value="bangladesh">Bangladesh</option>
+  <option value="brazil">Brazil</option>
+  <option value="china">China</option>
+  <option value="dr_congo">DR Congo</option>
+  <option value="egypt">Egypt</option>
+  <option value="ethiopia">Ethiopia</option>
+  <option value="france">France</option>
+  <option value="germany">Germany</option>
+  <option value="india">India</option>
+  <option value="indonesia">Indonesia</option>
+  <option value="iran">Iran</option>
+  <option value="italy">Italy</option>
+  <option value="japan">Japan</option>
+  <option value="mexico">Mexico</option>
+  <option value="nigeria">Nigeria</option>
+  <option value="pakistan">Pakistan</option>
+  <option value="philippines">Philippines</option>
+  <option value="russia">Russia</option>
+  <option value="south_africa">South Africa</option>
+  <option value="tanzania">Tanzania</option>
+  <option value="thailand">Thailand</option>
+  <option value="turkey">Turkey</option>
+  <option value="usa">USA</option>
+  <option value="uk">UK</option>
+  <option value="vietnam">Vietnam</option>
+  </select>
+               <br><br>
+               <label for="col1">Choose a factor:</label>
+               <br><br>
+               <select name="col1" id="col1", name="col1">
+  <option value="Population">Population</option>
+  <option value="Yearly\nChange">Yearly\nChange</option>
+  <option value="Migrants (net)">Migrants (net)</option>
+  <option value="Median Age">Median Age</option>
+  <option value="Fertility Rate">Fertility Rate</option>
+  <option value="Density (P/Km²)">Density (P/Km²)</option>
+  <option value="Urban Population">Urban Population</option>
+  <option value="World Population">World Population</option>
+  </select>
+               <br><br>
+               <label for="col2">Choose another factor:</label>
+               <br><br>
+               <select name="col2" id="col2", name="col2">
+  <option value="Population">Population</option>
+  <option value="Yearly\nChange">Yearly\nChange</option>
+  <option value="Migrants (net)">Migrants (net)</option>
+  <option value="Median Age">Median Age</option>
+  <option value="Fertility Rate">Fertility Rate</option>
+  <option value="Density (P/Km²)">Density (P/Km²)</option>
+  <option value="Urban Population">Urban Population</option>
+  <option value="World Population">World Population</option>
+  </select>
+               <br><br>
+               <input type="submit">
+              </form>
+              </section>
+                        </div>
+                    </div>
+                </div>
+              
+              <!--Placeholder-->
+              <div class="graph"><iframe 
+                          width = "800" height = "400" title = "fig2" src = "./assets/fig2.html" style="border:1px solid green;">
+                          </iframe></div>
+            </section>
+          
+          
+          <!-- Lasso Regression Model-->
+            <section class="py-5" >
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="graph"><iframe 
+                          width = "800" height = "400" title = "ml2" src = "./assets/ml2.html" style="border:1px solid green;">
+                          </iframe></div>
+
+                        <div>
+                            <h2 class="fw-bolder-space">Lasso Regression Model</h2>
+                            <p class="lead fw-normal text-muted mb-0">The Lasso Regression Model is a modification of a Linear Regression Model. Therefore, we chose to use this model due to the strong correlations in our data. This model was able to accurately predict data points, such as future population. Below, you can use our model to predict the future population of a country in a certain year.</p>
+                          <ul class="lead fw-normal text-muted mb-0">
+    <li>Standard Deviation: 5.876559420041964
+    </li>
+    <li>MAE: 0.2511903017364201
+    </li>
+    <li>Score: 1.0
+    </li>
+</ul>
+                          <section class="py-5" id="lasso-inputs">
+             <form method="POST">
+               <label for="country">Choose a country:</label>
+               <br><br>
+               <select name="country" id="country", name="Country">
+  <option value="bangladesh">Bangladesh</option>
+  <option value="brazil">Brazil</option>
+  <option value="china">China</option>
+  <option value="dr_congo">DR Congo</option>
+  <option value="egypt">Egypt</option>
+  <option value="ethiopia">Ethiopia</option>
+  <option value="france">France</option>
+  <option value="germany">Germany</option>
+  <option value="india">India</option>
+  <option value="indonesia">Indonesia</option>
+  <option value="iran">Iran</option>
+  <option value="italy">Italy</option>
+  <option value="japan">Japan</option>
+  <option value="mexico">Mexico</option>
+  <option value="nigeria">Nigeria</option>
+  <option value="pakistan">Pakistan</option>
+  <option value="philippines">Philippines</option>
+  <option value="russia">Russia</option>
+  <option value="south_africa">South Africa</option>
+  <option value="tanzania">Tanzania</option>
+  <option value="thailand">Thailand</option>
+  <option value="turkey">Turkey</option>
+  <option value="usa">USA</option>
+  <option value="uk">UK</option>
+  <option value="vietnam">Vietnam</option>
+  </select>
+               <br><br>
+               <label for="dependent">Choose a year:</label>
+               <br><br>
+               <select name="dependent" id="dependent", name="dependent">
+  <option value="1990">1990</option>
+  <option value="1991">1991</option>
+  <option value="1992">1992</option>
+  <option value="1993">1993</option>
+  <option value="1994">1994</option>
+  <option value="1995">1995</option>
+  <option value="1996">1996</option>
+  <option value="1997">1997</option>
+  <option value="1998">1998</option>
+  <option value="1999">1999</option>
+  <option value="2000">2000</option>
+  <option value="2001">2001</option>
+  <option value="2002">2002</option>
+  <option value="2003">2003</option>
+  <option value="2004">2004</option>
+  <option value="2005">2005</option>
+  <option value="2006">2006</option>
+  <option value="2007">2007</option>
+  <option value="2008">2008</option>
+  <option value="2009">2009</option>
+  <option value="2010">2010</option>
+  <option value="2011">2011</option>
+  <option value="2012">2012</option>
+  <option value="2013">2013</option>
+  <option value="2014">2014</option>
+  <option value="2015">2015</option>
+  <option value="2016">2016</option>
+  <option value="2017">2017</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  </select>
+               <br><br>
+               <input type="submit">
+              </form>
+              </section>
+                        </div>
+                    </div>
+                </div>
+                <!--Placeholder-->
+              <div class="graph"><iframe 
+                          width = "800" height = "400" title = "fig2" src = "./assets/fig2.html" style="border:1px solid green;">
+                          </iframe></div>
+            </section>
+          
+          
+           <!-- Support Vector Regression (SVR) Model-->
+            <section class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="graph"><iframe 
+                          width = "800" height = "400" title = "ml3" src = "./assets/ml3.html" style="border:1px solid green;">
+                          </iframe></div>
+
+                        <div>
+                            <h2 class="fw-bolder-space">Support Vector Regression (SVR) Model</h2>
+                            <p class="lead fw-normal text-muted mb-0">The SVR works well with smaller datasets, as well as data in a similar range-this means that it worked well with our population data. Not only is the SVR easy to implement, it also is adept at generalizing and making predictions.</p>
+                          <ul class="lead fw-normal text-muted mb-0">
+    <li>Standard Deviation: 5.876559420041964
+    </li>
+    <li>MAE: 3.081251849981352
+    </li>
+    <li>Score: 0.43
+    </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+          <!-- Figure out image sizing-->
+          <!-- Polynomial Regression Model-->
+            <section class="py-5 bg-light">
+    
+              <div>
+                <img class ="graph-image" width = "650" height = "400" title = "ml4" src = "./assets/ml4.png" style="border:1px solid green;">
+              </div>
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+
+                        <div>
+                            <h2 class="fw-bolder-space">Polynomial Regression Model (Africa Fertility Rate)</h2>
+                            <p class="lead fw-normal text-muted mb-0">We used a polynomial regression model to predict fertility rate for Africa, since that would not follow a linear path. This model was able to accurately predict future fertility rates for Africa until 2060, though its predictions were less accurate past that point since the function is not a perfect polynomial graph. Other models could more effectively predict further into the future.</p>
+                          <ul class="lead fw-normal text-muted mb-0">
+    <li>Standard Deviation: ??
+    </li>
+    <li>MSE: .02
+    </li>
+    <li>Score: ??
+    </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+                 
+           
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark-about py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
